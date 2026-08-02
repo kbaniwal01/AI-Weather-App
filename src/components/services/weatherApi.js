@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5001/api";
+const BASE_URL = "https://ai-weather-backend-ypjm.onrender.com";
 
 export async function getWeather(city) {
 
